@@ -1,0 +1,22 @@
+DBI connect('service:tercel:3306','jelly',...) failed: Lost connection to MySQL server during query at /mico/vfm/vfm_get_account.pl line 21
+Can't call method "selectall_arrayref" on an undefined value at
+	/mico/vfm/vfm_get_account.pl line 30 (#1)
+    (F) You used the syntax of a method call, but the slot filled by the
+    object reference or package name contains an undefined value.  Something
+    like this will reproduce the error:
+    
+        $BADREF = undef;
+        process $BADREF 1,2,3;
+        $BADREF->process(1,2,3);
+    
+Uncaught exception from user code:
+	Can't call method "selectall_arrayref" on an undefined value at /mico/vfm/vfm_get_account.pl line 30.
+DBD::mysql::db selectall_arrayref failed: fetch() without execute() at /mico/vfm/vfm_get_account.pl line 30.
+DBD::mysql::db selectall_arrayref failed: MySQL server has gone away at /mico/vfm/vfm_get_account.pl line 62.
+Can't use an undefined value as an ARRAY reference at
+	/mico/vfm/vfm_get_account.pl line 64 (#1)
+    (F) A value used as either a hard reference or a symbolic reference must
+    be a defined value.  This helps to delurk some insidious errors.
+    
+Uncaught exception from user code:
+	Can't use an undefined value as an ARRAY reference at /mico/vfm/vfm_get_account.pl line 64.

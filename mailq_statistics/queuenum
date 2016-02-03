@@ -1,0 +1,9 @@
+#!/bin/bash
+echo "active queue:"
+find /var/postfix/queue/active/ -type f 2>/dev/null|wc -l
+echo "incoming queue:"
+find /var/postfix/queue/incoming/ -type f 2>/dev/null|wc -l
+echo "defer queue:"
+find /var/postfix/queue/defer/ -type f 2>/dev/null|wc -l
+echo "deferred queue:"
+find /var/postfix/queue/deferred/ -type f 2>/dev/null|wc -l
