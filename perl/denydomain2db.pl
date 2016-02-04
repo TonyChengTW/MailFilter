@@ -17,7 +17,7 @@ use DBI;
 $accessfile = $ARGV[0]; 
 print $accessfile;
 
-$dbh = DBI ->connect("DBI:mysql:mail_apol;host=203.79.224.115", "rmail", "LykCR3t1") or die "$!\n"; 
+$dbh = DBI ->connect("DBI:mysql:mail_apol;host=203.79.224.115", "rmail", "xxxxxxx") or die "$!\n"; 
 
 open ACCESS, "$accessfile" or die "Can not open $accessfile:$!\n"; 
 

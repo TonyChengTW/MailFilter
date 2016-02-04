@@ -15,7 +15,7 @@ if ($#ARGV != 1)
 use DBI;
 use Socket;
 
-$dbh = DBI ->connect("DBI:mysql:mail_apol;host=203.79.224.115", "rmail", "LykCR3t1") or die "$!\n";
+$dbh = DBI ->connect("DBI:mysql:mail_apol;host=203.79.224.115", "rmail", "xxxxxxx") or die "$!\n";
 
 $reason = $ARGV[0];
 $denydomain = $ARGV[1];

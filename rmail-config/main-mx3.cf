@@ -672,7 +672,7 @@ virtual_mailbox_base = /
 # ¥H¤U¬O rmail enhance
 rmail_dbhost = 127.0.0.1
 rmail_dbuser = rmail
-rmail_dbpass = LykCR3t1
+rmail_dbpass = xxxxxxx
 rmail_dbname = mail_apol
 rmail_dbport = 3306
 
@@ -797,7 +797,7 @@ rmail_default_basedir = /mnt/
 # POP3D
 rmail_passhost = 127.0.0.1
 rmail_passuser = rmail
-rmail_passpass = LykCR3t1
+rmail_passpass = xxxxxxx
 rmail_passname = mail_apol
 rmail_passport = 3306
 rmail_passinteractive = yes
@@ -810,7 +810,7 @@ rmail_passwd_passwd_field = s_encpass
 # Log
 rmail_loghost = 127.0.0.1
 rmail_loguser = rmail
-rmail_logpass = LykCR3t1
+rmail_logpass = xxxxxxx
 rmail_logname = mail_apol
 rmail_logport = 3306
 rmail_loginteractive = yes
@@ -821,7 +821,7 @@ rmail_zipmail = no
 #content_filter=smtp-amavis:[127.0.0.1]:10024
 rmail_cachehost = 127.0.0.1
 rmail_cacheuser = rmail
-rmail_cachepass = LykCR3t1
+rmail_cachepass = xxxxxxx
 rmail_cachename = mail_apol
 rmail_cacheport = 3306
 rmail_cacheinteractive = yes

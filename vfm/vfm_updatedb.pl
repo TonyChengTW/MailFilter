@@ -18,7 +18,7 @@ open IS_APOL, "$is_list_apol" or die "can\'t open $is_list_apol:$!\n";
 open IS_EBTNET, "$is_list_ebtnet" or die "can\'t open $is_list_ebtnet:$!\n";
 $dbh = DBI->connect('DBI:mysql:mail_apol;host=localhost',
                     'rmail',
-                    'LykCR3t1') or die "$!\n";
+                    'xxxxxxx') or die "$!\n";
 
 while (<IS_APOL>) {
      chomp;
